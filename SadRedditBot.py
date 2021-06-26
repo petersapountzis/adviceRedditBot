@@ -3,12 +3,12 @@ import random
 import time
 import json
 
-
-reddit = praw.Reddit(client_id='1rhONTIvB-YZ5w',
-                     client_secret='zr6tLc3bK7XWTOvt93uev0NyI_1ccw',
-                     user_agent='<console:TEST:1.0>',
-                     username='petuporu',
-                     password='mary0923')
+#Use your own client ID, secret ID, etc. Go to https://www.reddit.com/prefs/apps/ to make your own. 
+reddit = praw.Reddit(client_id='<clientKey>',
+                     client_secret='<secretID>',
+                     user_agent='<userAgent>',
+                     username='<username>',
+                     password='<password>')
 
 subreddit = reddit.subreddit("ApplyingToCollege")
 
